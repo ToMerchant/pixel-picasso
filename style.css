@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#pixelGrid{
+    display: grid;
+    width: 600px;
+    height: 650px;
+    justify-content: stretch;
+    border: 0px solid grey;
+
+    grid-gap:0;
+    margin: none;
+    background-image: url("https://a.1stdibscdn.com/painting-copy-by-picasso-the-dream-with-a-gold-frame-modern-art-for-sale/1121189/f_36227931589411692729/3622793_master.jpg?width=768");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 2vw;
+    margin-left:2vw;
+}
+
+.redCircle {
+    background: #E52E26;
+    border-radius: 50%;
+    cursor: cell;
+}
+.blueCircle {
+    background:#3CB1E7;
+    border-radius: 50%;
+    cursor: cell;
+}
+.greenCircle {
+    background: #30855F;
+    border-radius: 50%;
+    cursor: cell;
+}
+.yellowCircle {
+    background:#F9CA1E;
+    border-radius: 50%;
+    cursor: cell;
+}
+.goldCircle {
+    background:#C78F50;
+    border-radius: 50%;
+    cursor: cell;
+}
+.whiteCircle {
+    background: #ffffff;
+    border-radius: 50%;
+    cursor: cell;
+    color: white;
+}
+
+.red{
+    background: #E52E26;
+    cursor: cell;
+    border-radius: 0%;
+}
+.blue {
+    background: #3CB1E7;
+    cursor: cell;
+    border-radius: 0%;
+}
+.green{
+    background: #30855F;
+    cursor: cell;
+    border-radius: 0%;
+}
+.yellow {
+    background:#F9CA1E;
+    cursor: cell;
+    border-radius: 0%;
+}
+.gold {
+    background:#C78F50;
+    cursor: cell;
+    border-radius: 0%; 
+}
+.white{
+    background: #ffffff;
+    cursor: cell;
+    border-radius: 0%;
+}
+
+
+h1{
+    color: #aa6c39;
+    font-family: 'VT323', monospace;
+    font-size: 5.5rem;
+    text-align:center;
+    margin: 15px;
+
+}
+
+.palette{
+    border: none;
+    background: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.frame{
+    cursor: crosshair;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 4vw;
+}
+
+#left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 300px;
+    
+}
